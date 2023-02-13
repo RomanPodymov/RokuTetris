@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<!--
+	mainmenucontent.xml
+	RokuTetris
+
+	Created by Roman Podymov on 07/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name = "MainMenuContent" extends = "ContentNode" >
+ 
+	<interface>
+    	<field id = "contentData" type = "node" />
+  	</interface> 
+
+  	<script type = "text/brightscript" >
+    	
+		<![CDATA[
+    	sub init()
+			content = createObject("roSGNode", "ContentNode")
+	    
+	    	itemcontent = content.createChild("ContentNode")	
+	    	itemcontent.setField("title", tr("new_game"))
+        
+        	itemcontent = content.createChild("ContentNode")	
+	    	itemcontent.setField("title", tr("options"))
+	    
+	    	itemcontent = content.createChild("ContentNode")	
+	    	itemcontent.setField("title", tr("help"))
+        
+        	m.top.contentData = content
+    	end sub
+    	]]>
+
+	</script>
+
+</component>

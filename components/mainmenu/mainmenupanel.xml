@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!--
+	mainmenupanel.xml
+	RokuTetris
+
+	Created by Roman Podymov on 07/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name = "MainMenuListPanel" extends = "Group" >
+
+    <interface>
+        <field id = "list" type = "node" />
+    </interface> 
+
+    <script type = "text/brightscript" >
+
+		<![CDATA[
+			sub init()
+				m.top.list = m.top.findNode("menulist")
+				title = m.top.findNode("appTitle")
+				title.text = tr("appTitle")
+				title.translation = [(1280 - title.boundingRect().width) / 2, 100]
+
+				centerx = (1280 - 250) / 2
+				centery = (720 - 200) / 2
+				m.top.list.translation = [ centerx, centery ]
+				m.top.list.setFocus(true)
+			end sub
+		]]>
+
+	</script>
+
+	<children>
+		
+		<Label id="appTitle" height="100" width="0" horizAlign = "center" vertAlign = "center" />
+    	<LabelList id = "menulist" itemSize = "[250,100]" textHorizAlign="center" focusable="true"/>
+
+	</children>
+
+</component>

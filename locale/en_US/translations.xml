@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+	translations.xml
+	RokuTetris
+
+	Created by Roman Podymov on 07/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file datatype="x-brs" original="various brs files" source-language="en-US" target-language="en-US">
+        <body>
+            <trans-unit id="0">
+            	<source>new_game</source>
+            	<target>New Game</target>
+            </trans-unit>
+            <trans-unit id="1">
+            	<source>options</source>
+            	<target>Options</target>
+            </trans-unit>
+            <trans-unit id="2">
+            	<source>help</source>
+            	<target>Help</target>
+            </trans-unit>    
+            <trans-unit id="3">
+            	<source>appTitle</source>
+            	<target>RokuTetris</target>
+            </trans-unit>               
+        </body>
+    </file>
+</xliff>
