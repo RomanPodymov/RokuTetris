@@ -12,23 +12,7 @@
         <field id = "list" type = "node" />
     </interface> 
 
-    <script type = "text/brightscript" >
-
-		<![CDATA[
-			sub init()
-				m.top.list = m.top.findNode("menulist")
-				title = m.top.findNode("appTitle")
-				title.text = tr("appTitle")
-				title.translation = [(1280 - title.boundingRect().width) / 2, 100]
-
-				centerx = (1280 - 250) / 2
-				centery = (720 - 200) / 2
-				m.top.list.translation = [ centerx, centery ]
-				m.top.list.setFocus(true)
-			end sub
-		]]>
-
-	</script>
+	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenulistpanel.brs" />
 
 	<children>
 		

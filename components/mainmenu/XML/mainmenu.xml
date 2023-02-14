@@ -8,7 +8,7 @@
 -->
 <component name = "MainMenu" extends = "Scene" >
 
-	<script type="text/brightscript" uri="pkg:/components/mainmenu/mainmenu.brs" />
+	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenu.brs" />
 
 	<children>
         <MainMenuListPanel

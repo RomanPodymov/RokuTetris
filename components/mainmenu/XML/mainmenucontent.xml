@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?> 
+<!--
+	mainmenucontent.xml
+	RokuTetris
+
+	Created by Roman Podymov on 07/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name = "MainMenuContent" extends = "ContentNode" >
+ 
+	<interface>
+    	<field id = "contentData" type = "node" />
+  	</interface> 
+
+	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenucontent.brs" />
+
+</component>

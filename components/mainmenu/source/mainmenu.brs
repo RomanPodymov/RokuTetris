@@ -15,8 +15,8 @@ sub setMenu()
     m.mainMenuListPanel = m.top.findNode("MainMenuListPanel")
     m.gameScene = m.top.findNode("GameScreen")
     m.helpScene = m.top.findNode("HelpScreen")
-    m.mainMenuData = createObject("roSGNode", "MainMenuContent")
-    m.mainMenuListPanel.list.content = m.mainMenuData.contentData
+    mainMenuData = createObject("roSGNode", "MainMenuContent")
+    m.mainMenuListPanel.list.content = mainMenuData.contentData
     m.mainMenuListPanel.list.observeField("itemSelected", "showMenuItem")
     m.mainMenuListPanel.setFocus(true)
 end sub
