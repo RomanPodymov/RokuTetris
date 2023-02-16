@@ -32,7 +32,11 @@
             <trans-unit id="5">
             	<source>move_right</source>
             	<target>Move right</target>
-            </trans-unit>             
+            </trans-unit>     
+            <trans-unit id="6">
+            	<source>scores</source>
+            	<target>Scores</target>
+            </trans-unit>         
         </body>
     </file>
 </xliff>

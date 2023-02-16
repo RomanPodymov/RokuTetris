@@ -15,6 +15,10 @@
             id="mainMenuScreen"
             visible="true"
             translation="[0,0]" />
+        <GameScreen
+            id="gameScreen"
+            visible="false"
+            translation="[0,0]" />
 		<HelpScreen
             id="helpScreen"
             visible="false"

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+	gamefield.xml
+	RokuTetris
+
+	Created by Roman Podymov on 16/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name="GameField" extends="Group" >
+    
+	<interface>
+    	<field id = "isTimerRunning" type = "bool" onChange="onIsTimerRunningValueChanged" />
+    	<field id = "mustMoveLeft" type = "bool" onChange="onMustMoveLeft"/>
+    	<field id = "mustMoveRight" type = "bool" onChange="onMustMoveRight"/>
+  		<field id = "mustMoveDown" type = "bool" onChange="onMustMoveDown"/>
+  	</interface> 
+        
+    <script type="text/brightscript" uri="pkg:/components/game/gamefield.brs" />    
+        
+    <children>
+
+	<Timer
+  		id="gameplayTimer"
+  		repeat="true"
+  		duration="2"
+	/>
+
+	<Rectangle id="gameFieldBrick1_1"/>
+	<Rectangle id="gameFieldBrick1_2"/>
+	<Rectangle id="gameFieldBrick1_3"/>
+	<Rectangle id="gameFieldBrick1_4"/>
+	<Rectangle id="gameFieldBrick1_5"/>
+	<Rectangle id="gameFieldBrick1_6"/>
+	<Rectangle id="gameFieldBrick1_7"/>
+	<Rectangle id="gameFieldBrick1_8"/>
+	<Rectangle id="gameFieldBrick1_9"/>
+	<Rectangle id="gameFieldBrick1_10"/>
+	
+	<Rectangle id="gameFieldBrick2_1"/>
+	<Rectangle id="gameFieldBrick2_2"/>
+	<Rectangle id="gameFieldBrick2_3"/>
+	<Rectangle id="gameFieldBrick2_4"/>
+	<Rectangle id="gameFieldBrick2_5"/>
+	<Rectangle id="gameFieldBrick2_6"/>
+	<Rectangle id="gameFieldBrick2_7"/>
+	<Rectangle id="gameFieldBrick2_8"/>
+	<Rectangle id="gameFieldBrick2_9"/>
+	<Rectangle id="gameFieldBrick2_10"/>
+	
+	<Rectangle id="gameFieldBrick3_1"/>
+	<Rectangle id="gameFieldBrick3_2"/>
+	<Rectangle id="gameFieldBrick3_3"/>
+	<Rectangle id="gameFieldBrick3_4"/>
+	<Rectangle id="gameFieldBrick3_5"/>
+	<Rectangle id="gameFieldBrick3_6"/>
+	<Rectangle id="gameFieldBrick3_7"/>
+	<Rectangle id="gameFieldBrick3_8"/>
+	<Rectangle id="gameFieldBrick3_9"/>
+	<Rectangle id="gameFieldBrick3_10"/>
+	
+	<Rectangle id="gameFieldBrick4_1"/>
+	<Rectangle id="gameFieldBrick4_2"/>
+	<Rectangle id="gameFieldBrick4_3"/>
+	<Rectangle id="gameFieldBrick4_4"/>
+	<Rectangle id="gameFieldBrick4_5"/>
+	<Rectangle id="gameFieldBrick4_6"/>
+	<Rectangle id="gameFieldBrick4_7"/>
+	<Rectangle id="gameFieldBrick4_8"/>
+	<Rectangle id="gameFieldBrick4_9"/>
+	<Rectangle id="gameFieldBrick4_10"/>
+	
+	<Rectangle id="gameFieldBrick5_1"/>
+	<Rectangle id="gameFieldBrick5_2"/>
+	<Rectangle id="gameFieldBrick5_3"/>
+	<Rectangle id="gameFieldBrick5_4"/>
+	<Rectangle id="gameFieldBrick5_5"/>
+	<Rectangle id="gameFieldBrick5_6"/>
+	<Rectangle id="gameFieldBrick5_7"/>
+	<Rectangle id="gameFieldBrick5_8"/>
+	<Rectangle id="gameFieldBrick5_9"/>
+	<Rectangle id="gameFieldBrick5_10"/>
+
+	<Rectangle id="gameFieldBrick6_1"/>
+	<Rectangle id="gameFieldBrick6_2"/>
+	<Rectangle id="gameFieldBrick6_3"/>
+	<Rectangle id="gameFieldBrick6_4"/>
+	<Rectangle id="gameFieldBrick6_5"/>
+	<Rectangle id="gameFieldBrick6_6"/>
+	<Rectangle id="gameFieldBrick6_7"/>
+	<Rectangle id="gameFieldBrick6_8"/>
+	<Rectangle id="gameFieldBrick6_9"/>
+	<Rectangle id="gameFieldBrick6_10"/>
+	
+	<Rectangle id="gameFieldBrick7_1"/>
+	<Rectangle id="gameFieldBrick7_2"/>
+	<Rectangle id="gameFieldBrick7_3"/>
+	<Rectangle id="gameFieldBrick7_4"/>
+	<Rectangle id="gameFieldBrick7_5"/>
+	<Rectangle id="gameFieldBrick7_6"/>
+	<Rectangle id="gameFieldBrick7_7"/>
+	<Rectangle id="gameFieldBrick7_8"/>
+	<Rectangle id="gameFieldBrick7_9"/>
+	<Rectangle id="gameFieldBrick7_10"/>
+	
+	<Rectangle id="gameFieldBrick8_1"/>
+	<Rectangle id="gameFieldBrick8_2"/>
+	<Rectangle id="gameFieldBrick8_3"/>
+	<Rectangle id="gameFieldBrick8_4"/>
+	<Rectangle id="gameFieldBrick8_5"/>
+	<Rectangle id="gameFieldBrick8_6"/>
+	<Rectangle id="gameFieldBrick8_7"/>
+	<Rectangle id="gameFieldBrick8_8"/>
+	<Rectangle id="gameFieldBrick8_9"/>
+	<Rectangle id="gameFieldBrick8_10"/>
+	
+	<Rectangle id="gameFieldBrick9_1"/>
+	<Rectangle id="gameFieldBrick9_2"/>
+	<Rectangle id="gameFieldBrick9_3"/>
+	<Rectangle id="gameFieldBrick9_4"/>
+	<Rectangle id="gameFieldBrick9_5"/>
+	<Rectangle id="gameFieldBrick9_6"/>
+	<Rectangle id="gameFieldBrick9_7"/>
+	<Rectangle id="gameFieldBrick9_8"/>
+	<Rectangle id="gameFieldBrick9_9"/>
+	<Rectangle id="gameFieldBrick9_10"/>
+	
+	<Rectangle id="gameFieldBrick10_1"/>
+	<Rectangle id="gameFieldBrick10_2"/>
+	<Rectangle id="gameFieldBrick10_3"/>
+	<Rectangle id="gameFieldBrick10_4"/>
+	<Rectangle id="gameFieldBrick10_5"/>
+	<Rectangle id="gameFieldBrick10_6"/>
+	<Rectangle id="gameFieldBrick10_7"/>
+	<Rectangle id="gameFieldBrick10_8"/>
+	<Rectangle id="gameFieldBrick10_9"/>
+	<Rectangle id="gameFieldBrick10_10"/>
+
+	<Rectangle id="gameFieldBrick11_1"/>
+	<Rectangle id="gameFieldBrick11_2"/>
+	<Rectangle id="gameFieldBrick11_3"/>
+	<Rectangle id="gameFieldBrick11_4"/>
+	<Rectangle id="gameFieldBrick11_5"/>
+	<Rectangle id="gameFieldBrick11_6"/>
+	<Rectangle id="gameFieldBrick11_7"/>
+	<Rectangle id="gameFieldBrick11_8"/>
+	<Rectangle id="gameFieldBrick11_9"/>
+	<Rectangle id="gameFieldBrick11_10"/>
+	
+	<Rectangle id="gameFieldBrick12_1"/>
+	<Rectangle id="gameFieldBrick12_2"/>
+	<Rectangle id="gameFieldBrick12_3"/>
+	<Rectangle id="gameFieldBrick12_4"/>
+	<Rectangle id="gameFieldBrick12_5"/>
+	<Rectangle id="gameFieldBrick12_6"/>
+	<Rectangle id="gameFieldBrick12_7"/>
+	<Rectangle id="gameFieldBrick12_8"/>
+	<Rectangle id="gameFieldBrick12_9"/>
+	<Rectangle id="gameFieldBrick12_10"/>
+	
+	<Rectangle id="gameFieldBrick13_1"/>
+	<Rectangle id="gameFieldBrick13_2"/>
+	<Rectangle id="gameFieldBrick13_3"/>
+	<Rectangle id="gameFieldBrick13_4"/>
+	<Rectangle id="gameFieldBrick13_5"/>
+	<Rectangle id="gameFieldBrick13_6"/>
+	<Rectangle id="gameFieldBrick13_7"/>
+	<Rectangle id="gameFieldBrick13_8"/>
+	<Rectangle id="gameFieldBrick13_9"/>
+	<Rectangle id="gameFieldBrick13_10"/>
+	
+	<Rectangle id="gameFieldBrick14_1"/>
+	<Rectangle id="gameFieldBrick14_2"/>
+	<Rectangle id="gameFieldBrick14_3"/>
+	<Rectangle id="gameFieldBrick14_4"/>
+	<Rectangle id="gameFieldBrick14_5"/>
+	<Rectangle id="gameFieldBrick14_6"/>
+	<Rectangle id="gameFieldBrick14_7"/>
+	<Rectangle id="gameFieldBrick14_8"/>
+	<Rectangle id="gameFieldBrick14_9"/>
+	<Rectangle id="gameFieldBrick14_10"/>
+	
+	<Rectangle id="gameFieldBrick15_1"/>
+	<Rectangle id="gameFieldBrick15_2"/>
+	<Rectangle id="gameFieldBrick15_3"/>
+	<Rectangle id="gameFieldBrick15_4"/>
+	<Rectangle id="gameFieldBrick15_5"/>
+	<Rectangle id="gameFieldBrick15_6"/>
+	<Rectangle id="gameFieldBrick15_7"/>
+	<Rectangle id="gameFieldBrick15_8"/>
+	<Rectangle id="gameFieldBrick15_9"/>
+	<Rectangle id="gameFieldBrick15_10"/>
+
+	<Rectangle id="gameFieldBrick16_1"/>
+	<Rectangle id="gameFieldBrick16_2"/>
+	<Rectangle id="gameFieldBrick16_3"/>
+	<Rectangle id="gameFieldBrick16_4"/>
+	<Rectangle id="gameFieldBrick16_5"/>
+	<Rectangle id="gameFieldBrick16_6"/>
+	<Rectangle id="gameFieldBrick16_7"/>
+	<Rectangle id="gameFieldBrick16_8"/>
+	<Rectangle id="gameFieldBrick16_9"/>
+	<Rectangle id="gameFieldBrick16_10"/>
+	
+	<Rectangle id="gameFieldBrick17_1"/>
+	<Rectangle id="gameFieldBrick17_2"/>
+	<Rectangle id="gameFieldBrick17_3"/>
+	<Rectangle id="gameFieldBrick17_4"/>
+	<Rectangle id="gameFieldBrick17_5"/>
+	<Rectangle id="gameFieldBrick17_6"/>
+	<Rectangle id="gameFieldBrick17_7"/>
+	<Rectangle id="gameFieldBrick17_8"/>
+	<Rectangle id="gameFieldBrick17_9"/>
+	<Rectangle id="gameFieldBrick17_10"/>
+	
+	<Rectangle id="gameFieldBrick18_1"/>
+	<Rectangle id="gameFieldBrick18_2"/>
+	<Rectangle id="gameFieldBrick18_3"/>
+	<Rectangle id="gameFieldBrick18_4"/>
+	<Rectangle id="gameFieldBrick18_5"/>
+	<Rectangle id="gameFieldBrick18_6"/>
+	<Rectangle id="gameFieldBrick18_7"/>
+	<Rectangle id="gameFieldBrick18_8"/>
+	<Rectangle id="gameFieldBrick18_9"/>
+	<Rectangle id="gameFieldBrick18_10"/>
+	
+	<Rectangle id="gameFieldBrick19_1"/>
+	<Rectangle id="gameFieldBrick19_2"/>
+	<Rectangle id="gameFieldBrick19_3"/>
+	<Rectangle id="gameFieldBrick19_4"/>
+	<Rectangle id="gameFieldBrick19_5"/>
+	<Rectangle id="gameFieldBrick19_6"/>
+	<Rectangle id="gameFieldBrick19_7"/>
+	<Rectangle id="gameFieldBrick19_8"/>
+	<Rectangle id="gameFieldBrick19_9"/>
+	<Rectangle id="gameFieldBrick19_10"/>
+	
+	<Rectangle id="gameFieldBrick20_1"/>
+	<Rectangle id="gameFieldBrick20_2"/>
+	<Rectangle id="gameFieldBrick20_3"/>
+	<Rectangle id="gameFieldBrick20_4"/>
+	<Rectangle id="gameFieldBrick20_5"/>
+	<Rectangle id="gameFieldBrick20_6"/>
+	<Rectangle id="gameFieldBrick20_7"/>
+	<Rectangle id="gameFieldBrick20_8"/>
+	<Rectangle id="gameFieldBrick20_9"/>
+	<Rectangle id="gameFieldBrick20_10"/>
+
+    </children> 
+</component>
