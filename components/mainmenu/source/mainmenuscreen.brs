@@ -1,5 +1,5 @@
 '
-'  mainmenupanel.brs
+'  mainmenuscreen.brs
 '  RokuTetris
 '
 '  Created by Roman Podymov on 07/02/2023.
@@ -11,7 +11,7 @@ sub init()
     screenHeight = 720
     m.top.list = m.top.findNode("menulist")
     title = m.top.findNode("appTitle")
-    title.text = tr("appTitle")
+    title.text = tr("app_title")
     title.translation = [(screenWidth - title.boundingRect().width) / 2, 100]
 
     centerx = (screenWidth - 250) / 2

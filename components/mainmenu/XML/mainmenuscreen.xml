@@ -1,18 +1,18 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <!--
-	mainmenupanel.xml
+	mainmenuscreen.xml
 	RokuTetris
 
 	Created by Roman Podymov on 07/02/2023.
 	Copyright © 2023 RokuTetris. All rights reserved.
 -->
-<component name = "MainMenuListPanel" extends = "Group" >
+<component name = "MainMenuScreen" extends = "Group" >
 
     <interface>
         <field id = "list" type = "node" />
     </interface> 
 
-	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenulistpanel.brs" />
+	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenuscreen.brs" />
 
 	<children>
 		

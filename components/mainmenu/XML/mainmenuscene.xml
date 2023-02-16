@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!--
+	mainmenuscene.xml
+	RokuTetris
+
+	Created by Roman Podymov on 07/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name = "MainMenuScene" extends = "Scene" >
+
+	<script type="text/brightscript" uri="pkg:/components/mainmenu/source/mainmenuscene.brs" />
+
+	<children>
+        <MainMenuScreen
+            id="mainMenuScreen"
+            visible="true"
+            translation="[0,0]" />
+		<HelpScreen
+            id="helpScreen"
+            visible="false"
+            translation="[0,0]" />
+     </children>
+
+</component>

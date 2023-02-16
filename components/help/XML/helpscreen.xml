@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+	helpscreen.xml
+	RokuTetris
+
+	Created by Roman Podymov on 14/02/2023.
+	Copyright © 2023 RokuTetris. All rights reserved.
+-->
+<component name="HelpScreen" extends="Group" >
+    
+    <script type="text/brightscript" uri="pkg:/components/help/source/helpscreen.brs" />
+    
+    <children>
+
+        <Label id="labelMoveLeft" height="44" width="0" horizAlign = "left" vertAlign = "center" translation="[200, 200]" />
+		<Label id="labelMoveRight" height="44" width="0" horizAlign = "left" vertAlign = "center" translation="[200, 300]" />
+
+    </children> 
+</component>
